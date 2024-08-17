@@ -1,0 +1,41 @@
+.nav-header {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-image {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+.logo-name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: #12022f;
+}
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  margin-left: -40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 10px;
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
